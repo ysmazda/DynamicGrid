@@ -9,6 +9,10 @@ android {
         targetSdkVersion 26
     }
 
+    lintOptions {
+        abortOnError false
+    }
+
     sourceSets {
         main {
             manifest.srcFile 'AndroidManifest.xml'
